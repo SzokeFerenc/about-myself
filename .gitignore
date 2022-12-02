@@ -1,3 +1,4 @@
-# Photoshop documents
-./assets/background.psd
+# ignore Photoshop documents
+assets/background.psd
+.psd
 
