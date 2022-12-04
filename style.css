@@ -1,8 +1,163 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 100%;
+    font-family: 'Raleway', sans-serif;
+    
+    /*font-weight : bold;*/
+    
+  }
+
 body {
-    margin : 0px;
-    padding : 0;
-    background: url('assets/background.jpg') no-repeat top center;
+    
     background-color: #000000;
-    background-size : 60vh; 
+    background-image: url('assets/background.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 80%;
+    /*display: flex;*/
+    align-items: center;
+    min-width: 560px;
+    min-height: 1000px;
+    
 }
+
+.center {
+    display : block;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.name-headline {
+    color : rgb(0, 0, 0);
+    text-align: center;
+    margin : 10px auto;
+
+}
+
+.profile-card {
+    position: relative;
+    /*background-color: beige;*/
+    top:-80px;
+}
+
+#profimg {
+    width: 150px;
+    border-radius: 10%;
+    border: #717171 solid 3px;
+    
+}
+
+.headline-background, .social-background {
+    
+    position : relative;
+    top : 140px;
+    /*border : white solid 2px;*/
+    border-radius: 5px;
+    margin-left : 18%;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin-right: 18%;
+    background-color: rgba(224, 224, 224, 0.876);
+    text-align: justify;
+    color: rgb(0, 0, 0);
+    min-width: 350px;
+    /*background-color: coral;*/
+    
+}
+
+.social-background {
+    top: 160px;
+    padding-top:10px;
+    padding-bottom: 0px;
+    text-align: center;
+    /*background-color: rgb(221, 234, 107);*/
+}
+
+.paragraph {
+    position: relative;
+    top:-50px;
+    margin-left : 10%;
+    margin-right : 10%;
+    margin-bottom : 10px;
+    font-weight: 500;
+    /*background-color: fuchsia;*/
+}
+
+.contact {
+    
+    margin-left : 10%;
+    margin-right : 10%;
+    margin-bottom : 5%;
+    padding-bottom: px;
+    font-weight: 500;
+}
+
+span {
+    font-style: italic;
+    font-size: 80%;
+    text-align: center;
+}
+
+h1 {
+    text-transform: uppercase;
+    font-size: 150%;
+    font-weight: 900;
+    padding-top: 10px;
+}
+
+.tags {
+    position: relative;
+    top:-50px;
+    text-align: center;
+    padding-bottom: 0px;
+    padding-top: 0px;
+}
+
+.tag-data {
+    display: inline;
+    background-color: #a6a6a6;
+    margin:2px;
+    padding:5px;
+    border-radius: 8px;
+    font-size: 80%;
+}
+
+.tag-data:hover {
+    background-color: rgb(133, 133, 133);
+}
+
+.tag-data a {
+    text-decoration: none;
+    color:#000000;
+}
+
+.social-links {
+    position: relative;
+    top: -12px;
+    
+}
+
+.soc-link {
+    display: inline; 
+}
+
+.soc-link a {
+    color:rgba(17, 71, 90, 0.8)
+}
+
+.soc-link a:hover {
+    color: rgba(163, 41, 1, 0.8);
+}
+
+
+
+
+
+
+
+
+
 
