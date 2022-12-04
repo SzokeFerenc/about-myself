@@ -18,7 +18,7 @@ body {
     background-size: 80%;
     /*display: flex;*/
     align-items: center;
-    min-width: 400px;
+    min-width: 300px;
     min-height: 1000px;
     
 }
@@ -63,7 +63,7 @@ body {
     background-color: rgba(224, 224, 224, 0.876);
     text-align: justify;
     color: rgb(0, 0, 0);
-    min-width: 240px;
+    min-width: 200px;
     /*background-color: coral;*/
     
 }
