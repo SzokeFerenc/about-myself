@@ -71,7 +71,6 @@ body {
 .social-background {
     top: 160px;
     padding-top:10px;
-    padding-bottom: 0px;
     text-align: center;
     /*background-color: rgb(221, 234, 107);*/
 }
@@ -91,7 +90,6 @@ body {
     margin-left : 10%;
     margin-right : 10%;
     margin-bottom : 5%;
-    padding-bottom: px;
     font-weight: 500;
 }
 
@@ -136,7 +134,7 @@ h1 {
 
 .social-links {
     position: relative;
-    top: -12px;
+    top: -2vw;
     
 }
 
