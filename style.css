@@ -18,7 +18,7 @@ body {
     background-size: 80%;
     /*display: flex;*/
     align-items: center;
-    min-width: 560px;
+    min-width: 400px;
     min-height: 1000px;
     
 }
@@ -63,7 +63,7 @@ body {
     background-color: rgba(224, 224, 224, 0.876);
     text-align: justify;
     color: rgb(0, 0, 0);
-    min-width: 350px;
+    min-width: 240px;
     /*background-color: coral;*/
     
 }
@@ -112,19 +112,23 @@ h1 {
     text-align: center;
     padding-bottom: 0px;
     padding-top: 0px;
+    line-height: 150%;
 }
 
 .tag-data {
     display: inline;
     background-color: #a6a6a6;
-    margin:2px;
-    padding:5px;
-    border-radius: 8px;
+    margin:5px;
+    padding:3px;
+    border-radius: 6px;
     font-size: 80%;
+    
+    
 }
 
 .tag-data:hover {
     background-color: rgb(133, 133, 133);
+    transition: all 0.5s ease-in-out;
 }
 
 .tag-data a {
@@ -138,6 +142,11 @@ h1 {
     
 }
 
+.social-links:hover {
+    transform: scale(1.1);
+    transition: all 0.5s ease-in-out;
+}
+
 .soc-link {
     display: inline; 
 }
@@ -148,6 +157,7 @@ h1 {
 
 .soc-link a:hover {
     color: rgba(163, 41, 1, 0.8);
+    transition: all 0.5s ease-in-out;
 }
 
 
