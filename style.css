@@ -3,10 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     font-size: 100%;
-    font-family: 'Raleway', sans-serif;
-    
-    /*font-weight : bold;*/
-    
+    font-family: 'Raleway', sans-serif;    
   }
 
 body {
@@ -16,30 +13,25 @@ body {
     background-position: center center;
     background-repeat: no-repeat;
     background-size: 80%;
-    /*display: flex;*/
     align-items: center;
     min-width: 300px;
     min-height: 1000px;
-    
 }
 
 .center {
     display : block;
     margin-left: auto;
     margin-right: auto;
-    
 }
 
 .name-headline {
     color : rgb(0, 0, 0);
     text-align: center;
     margin : 10px auto;
-
 }
 
 .profile-card {
     position: relative;
-    /*background-color: beige;*/
     top:-80px;
 }
 
@@ -47,14 +39,11 @@ body {
     width: 150px;
     border-radius: 10%;
     border: #717171 solid 3px;
-    
 }
 
 .headline-background, .social-background {
-    
     position : relative;
     top : 140px;
-    /*border : white solid 2px;*/
     border-radius: 5px;
     margin-left : 18%;
     padding-top: 0px;
@@ -64,15 +53,12 @@ body {
     text-align: justify;
     color: rgb(0, 0, 0);
     min-width: 200px;
-    /*background-color: coral;*/
-    
 }
 
 .social-background {
     top: 160px;
     padding-top:10px;
     text-align: center;
-    /*background-color: rgb(221, 234, 107);*/
 }
 
 .paragraph {
@@ -82,11 +68,9 @@ body {
     margin-right : 10%;
     margin-bottom : 10px;
     font-weight: 500;
-    /*background-color: fuchsia;*/
 }
 
 .contact {
-    
     margin-left : 10%;
     margin-right : 10%;
     margin-bottom : 5%;
@@ -122,8 +106,6 @@ h1 {
     padding:3px;
     border-radius: 6px;
     font-size: 80%;
-    
-    
 }
 
 .tag-data:hover {
@@ -139,7 +121,6 @@ h1 {
 .social-links {
     position: relative;
     top: -2vw;
-    
 }
 
 .social-links:hover {
@@ -159,13 +140,3 @@ h1 {
     color: rgba(163, 41, 1, 0.8);
     transition: all 0.5s ease-in-out;
 }
-
-
-
-
-
-
-
-
-
-
